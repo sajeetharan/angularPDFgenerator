@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+  <script type="text/javascript" src="pdfmake.js"></script>
+  <script type="text/javascript" src="vfs_fonts.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+</head>
+
+<body ng-app="pdfDemo">
+  <div ng-controller="pdfCtrl">
+    <button ng-click="openPdf()">Open Pdf</button>
+    <button ng-click="downloadPdf()">Download Pdf</button>
+  </div>
+</body>
+
+</html>
